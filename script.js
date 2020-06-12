@@ -29,7 +29,7 @@ reset.addEventListener('click', removeDiv => {
         gameArea.removeChild(gameArea.firstChild);
     };
 
-    grid = prompt('axis?', '32');
+    grid = prompt('Width of new grid?', 'e.g. 32');
     flexPercent = 100 / grid;
 
     etch()
