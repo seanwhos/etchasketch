@@ -55,13 +55,10 @@ text-shadow: -1px -1px 1px rgb(155, 3, 3), 0.5px 0.5px 1px rgb(243, 105, 105);
     background-color: rgb(245, 232, 214);
 }
 
-#container button {
+button {
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    position: absolute;
-    bottom: 12px;
-    left: 12px; 
     border: 1px solid rgb(255, 255, 255);
     background: rgb(218, 218, 218);
     font-size: 14pt;
@@ -73,12 +70,23 @@ text-shadow: -1px -1px 1px rgb(155, 3, 3), 0.5px 0.5px 1px rgb(243, 105, 105);
     text-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
-#container button:active {
+button:active {
     box-shadow: 0 1px 5px rgb(75, 14, 14), 0 -1px 5px rgb(255, 210, 210);
     border: 1px solid rgb(235, 235, 235);
 }
 
-#container button:hover {
+button:hover {
     color: rgb(77, 77, 77);
 }
 
+
+#reset {
+    position: absolute;
+    bottom: 12px;
+    left: 12px; 
+}
+#fake {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
